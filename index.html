@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Rao Ghodke</title>
+    <title>Aditya Rao Ghodke | Data Science and ML Engineer</title>
+    <meta name="description" content="Aditya Rao Ghodke is an MS Data Science student at Texas A&amp;M University building LLM, retrieval and machine learning systems. Projects, experience and research.">
+    <link rel="canonical" href="https://ghodkeadityarao.github.io/aditya-rao-ghodke/">
+    <meta name="theme-color" content="#5865f2">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Aditya Rao Ghodke | Data Science and ML Engineer">
+    <meta property="og:description" content="MS Data Science student at Texas A&amp;M University building LLM, retrieval and machine learning systems.">
+    <meta property="og:url" content="https://ghodkeadityarao.github.io/aditya-rao-ghodke/">
+    <meta property="og:image" content="https://ghodkeadityarao.github.io/aditya-rao-ghodke/images/website_image.jpg">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json">
+    {"@context": "https://schema.org", "@type": "Person", "name": "Aditya Rao Ghodke",
+      "jobTitle": "Data Science Student and ML Engineer", "url": "https://ghodkeadityarao.github.io/aditya-rao-ghodke/",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "Texas A&M University"},
+      "sameAs": ["https://github.com/ghodkeadityarao", "https://www.linkedin.com/in/ghodkeadityarao"]}
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -1157,13 +1172,27 @@
             }
 
             nav ul {
-                flex-wrap: wrap;
-                gap: 1rem;
-                justify-content: center;
+                flex-wrap: nowrap;
+                gap: 1.1rem;
+                justify-content: flex-start;
+                overflow-x: auto;
+                width: 100%;
+                padding: 0.25rem 0.25rem 0.5rem;
+                scrollbar-width: none;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            nav ul::-webkit-scrollbar { display: none; }
+
+            nav a {
+                font-size: 0.8rem;
+                white-space: nowrap;
+                letter-spacing: 0.5px;
             }
 
             nav .container {
                 padding: 0.6rem 1rem;
+                justify-content: flex-start;
             }
 
             .timeline::before {
@@ -1234,6 +1263,7 @@
     <meta name="theme-color" content="#7c8cff">
 </head>
 <body>
+    <a class="skip-link" href="#about">Skip to content</a>
     <!-- Navigation -->
     <nav>
         <div class="container">
@@ -1257,7 +1287,7 @@
         <div class="container hero-content">
             <div class="hero-profile">
                 <div class="profile-image-container">
-                    <img src="images/website_image.png" alt="Aditya Rao Ghodke" class="profile-image">
+                    <img src="images/website_image.jpg" alt="Aditya Rao Ghodke" class="profile-image" width="320" height="341" decoding="async" fetchpriority="high">
                 </div>
                 <div class="hero-text">
                     <h1>Aditya Rao Ghodke</h1>
@@ -1266,7 +1296,7 @@
                     
                     <!-- Social Links with Icons -->
                     <div class="social-links">
-                        <a href="https://www.github.com/ghodkeadityarao" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/ghodkeadityarao" class="social-link" target="_blank" rel="noopener noreferrer">
                             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                             </svg>
@@ -1312,7 +1342,7 @@
                 <div class="about-text">
                     <h3>Building AI Solutions That Matter</h3>
                     <p>I’m a Data Science graduate student at Texas A&M University, focused on machine learning, deep learning, and large language models. I like turning research-grade ideas into systems that hold up in messy, real-world data, not just notebooks.</p>
-                    <p>My work spans LLMs, NLP, and data engineering, with hands-on experience in Python, SQL, Hugging Face Transformers, LangChain, and cloud tools like AWS. I’ve built an agentic RAG QA system for Kubernetes documentation, an LLM-powered ETF recommender (Zenvest AI), and LogGPT, an NLP-based system for semantic log analysis and anomaly detection. My undergraduate research on unsupervised satellite land-cover clustering was accepted and presented at IEEE ICPEICES 2024.</p>
+                    <p>My work spans LLMs, NLP, and data engineering, with hands-on experience in Python, SQL, Hugging Face Transformers, LangChain, and cloud tools like AWS. I’ve built a RAG chatbot over the Kubernetes documentation, a text-to-SQL agent with query guardrails, an LLM-powered ETF recommender (Zenvest AI), and LogGPT, an NLP-based system for semantic log analysis and anomaly detection. My undergraduate research on unsupervised satellite land-cover clustering was accepted and presented at IEEE ICPEICES 2024.</p>
                     <p>Professionally, I’ve worked as a Data Scientist Intern at Xometry and held data science roles at Front Page, Scaler, and Publicis Groupe, alongside a Student Assistant position in Texas A&M’s Department of Statistics, building data pipelines, running A/B experiments, and shipping dashboards and automation that teams rely on daily. I enjoy collaborating across teams, digging into messy edge cases, and making systems both reliable and interpretable.</p>
                 </div>
                 <div class="skills-grid">
@@ -1429,7 +1459,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>
-                            <img src="images/xometry.png" alt="Xometry" class="company-logo">
+                            <img src="images/xometry.png" alt="Xometry" class="company-logo" width="36" height="36" loading="lazy" decoding="async">
                             Xometry
                         </h3>
                         <h4>Data Scientist Intern</h4>
@@ -1448,7 +1478,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>
-                            <img src="images/tamu.png" alt="TAMU" class="company-logo">
+                            <img src="images/tamu.png" alt="TAMU" class="company-logo" width="36" height="36" loading="lazy" decoding="async">
                             Texas A&M University - Department of Statistics
                         </h3>
                         <h4>Student Assistant (Data & AI)</h4>
@@ -1464,7 +1494,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>
-                            <img src="images/frontpage.jpeg" alt="Front Page" class="company-logo">
+                            <img src="images/frontpage.jpeg" alt="Front Page" class="company-logo" width="36" height="36" loading="lazy" decoding="async">
                             Front Page
                         </h3>
                         <h4>Data Science Intern</h4>
@@ -1480,7 +1510,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>
-                            <img src="images/scaler.jpg" alt="Scaler" class="company-logo">
+                            <img src="images/scaler.jpg" alt="Scaler" class="company-logo" width="36" height="36" loading="lazy" decoding="async">
                             Scaler
                         </h3>
                         <h4>Data Science Intern</h4>
@@ -1497,7 +1527,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>
-                            <img src="images/publicis.png" alt="Publicis Groupe" class="company-logo">
+                            <img src="images/publicis.png" alt="Publicis Groupe" class="company-logo" width="36" height="36" loading="lazy" decoding="async">
                             Publicis Groupe
                         </h3>
                         <h4>Data Science Intern</h4>
@@ -1519,9 +1549,9 @@
             <h2>PROJECTS</h2>
             
             <!-- Project Category Tabs -->
-            <div class="project-tabs">
-                <button class="tab-btn active" onclick="showProjects('research')">RESEARCH PROJECTS</button>
-                <button class="tab-btn" onclick="showProjects('personal')">PERSONAL PROJECTS</button>
+            <div class="project-tabs" role="tablist" aria-label="Project categories">
+                <button class="tab-btn active" role="tab" aria-selected="true" onclick="showProjects('research', this)">RESEARCH PROJECTS</button>
+                <button class="tab-btn" role="tab" aria-selected="false" onclick="showProjects('personal', this)">PERSONAL PROJECTS</button>
             </div>
 
             <!-- Research Projects -->
@@ -1593,9 +1623,9 @@
                             <h3>Zenvest AI: LLM-Powered ETF Recommender</h3>
                         </div>
                         <div class="project-body">
-                            <p>Hybrid recommendation system that turns natural‑language investment goals into a ranked, explainable ETF shortlist using an LLM, XGBoost, and SHAP.</p>
+                            <p>Turns a plain-English investment goal into five explained ETF picks from 2,264 funds: an LLM reads the goal, XGBoost ranks the funds and SHAP explains the ranking.</p>
                             <div class="project-stats">
-                                <span class="stat">NDCG@10: 0.91</span>
+                                <span class="stat">Top 5 within stated limits: 100%</span>
                                 <span class="stat">2,264 ETFs</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('zenvest')">View Details</button>
@@ -1604,13 +1634,27 @@
 
                     <div class="project-card">
                         <div class="project-header">
-                            <h3>Agentic RAG QA System for Kubernetes Documentation</h3>
+                            <h3>Data Question Agent: Text-to-SQL with Guardrails</h3>
                         </div>
                         <div class="project-body">
-                            <p>Agentic retrieval‑augmented QA system built with LangChain and FAISS, optimized to answer Kubernetes documentation and CLI‑related queries accurately.</p>
+                            <p>Ask a database questions in plain English. Gemini writes the SQL, which runs read-only behind three guardrail layers, and you see the query and the rows.</p>
                             <div class="project-stats">
-                                <span class="stat">50+ Doc Pages Indexed</span>
-                                <span class="stat">10+ Validated Queries</span>
+                                <span class="stat">38/40 questions correct</span>
+                                <span class="stat">25/25 attacks blocked</span>
+                            </div>
+                            <button class="view-details-btn" onclick="showModal('dataagent')">View Details</button>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Kubernetes Docs Chatbot (RAG)</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>Answers Kubernetes questions from 1,122 pages of the official documentation with citations, combining keyword and meaning-based search.</p>
+                            <div class="project-stats">
+                                <span class="stat">1,122 doc pages</span>
+                                <span class="stat">Right page in top 5: 92%</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('k8s-chatbot')">View Details</button>
                         </div>
@@ -1635,10 +1679,10 @@
                             <h3>Conversational AI Chatbot</h3>
                         </div>
                         <div class="project-body">
-                            <p>Flask‑based conversational chatbot using Google’s Gemini‑Pro generative AI for contextual and intent‑aware responses.</p>
+                            <p>Flask chat app that streams Gemini replies and answers simple questions (time, date, names) instantly without calling the model.</p>
                             <div class="project-stats">
-                                <span class="stat">Gemini‑Pro AI Integration</span>
-                                <span class="stat">Flask Web Interface</span>
+                                <span class="stat">104/105 messages handled</span>
+                                <span class="stat">Streaming replies</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('personal3')">View Details</button>
                         </div>
@@ -1649,10 +1693,10 @@
                             <h3>ResuMate: The Effortless Resume Analysis Tool</h3>
                         </div>
                         <div class="project-body">
-                            <p>AI‑assisted resume review system providing personalized feedback, job alignment scoring, and skill recommendations for job seekers.</p>
+                            <p>Scores a resume out of 100 from 18 checks, shows the exact lines behind each lost point, matches it to a job post and suggests roles. Rules and classic text statistics, no LLM.</p>
                             <div class="project-stats">
-                                <span class="stat">Personalized Resume Feedback</span>
-                                <span class="stat">Resume Scoring & Job Match</span>
+                                <span class="stat">18 checks, score out of 100</span>
+                                <span class="stat">83.6% role accuracy (unseen resumes)</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('personal4')">View Details</button>
                         </div>
@@ -1663,10 +1707,10 @@
                             <h3>Chat With Documents</h3>
                         </div>
                         <div class="project-body">
-                            <p>AI‑powered RAG document chat platform enabling contextual Q&A across PDFs, DOCX, TXT, XLSX, and CSV files via LangChain + OpenAI API.</p>
+                            <p>Upload files in almost any format, including scanned PDFs and images, and ask questions. Every answer cites its page, slide or section.</p>
                             <div class="project-stats">
-                                <span class="stat">RAG Architecture</span>
-                                <span class="stat">5+ File Formats</span>
+                                <span class="stat">Right passage first: 90.5%</span>
+                                <span class="stat">Hybrid search + re-rank</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('personal5')">View Details</button>
                         </div>
@@ -1706,11 +1750,11 @@
     </section>
 
     <!-- Modals -->
-    <div id="modal-sleep" class="modal">
+    <div id="modal-sleep" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-sleep">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('sleep')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('sleep')">&times;</button>
             <div class="modal-header">
-                <h3>Sleep Stages Classification of EEG Signals</h3>
+                <h3 id="modal-title-sleep">Sleep Stages Classification of EEG Signals</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -1736,11 +1780,11 @@
         </div>
     </div>
 
-    <div id="modal-object-detection" class="modal">
+    <div id="modal-object-detection" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-object-detection">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('object-detection')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('object-detection')">&times;</button>
             <div class="modal-header">
-                <h3>Object Detection in Dark Images</h3>
+                <h3 id="modal-title-object-detection">Object Detection in Dark Images</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -1768,11 +1812,11 @@
         </div>
     </div>
 
-    <div id="modal-dijkstra" class="modal">
+    <div id="modal-dijkstra" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-dijkstra">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('dijkstra')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('dijkstra')">&times;</button>
             <div class="modal-header">
-                <h3>Optimizing Intra‑City Navigation using Dijkstra’s Algorithm</h3>
+                <h3 id="modal-title-dijkstra">Optimizing Intra‑City Navigation using Dijkstra’s Algorithm</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -1800,11 +1844,11 @@
         </div>
     </div>
 
-    <div id="modal-landcover" class="modal">
+    <div id="modal-landcover" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-landcover">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('landcover')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('landcover')">&times;</button>
             <div class="modal-header">
-                <h3>Unsupervised Clustering for Satellite Land Cover Mapping</h3>
+                <h3 id="modal-title-landcover">Unsupervised Clustering for Satellite Land Cover Mapping</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -1832,43 +1876,44 @@
 
     <!-- Personal Projects Modals -->
 
-    <div id="modal-k8s-chatbot" class="modal">
+    <div id="modal-k8s-chatbot" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-k8s-chatbot">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('k8s-chatbot')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('k8s-chatbot')">&times;</button>
             <div class="modal-header">
-                <h3>Agentic RAG QA System for Kubernetes Documentation</h3>
+                <h3 id="modal-title-k8s-chatbot">Kubernetes Docs Chatbot (RAG)</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
-                <p>To build a domain‑specialized QA system that understands Kubernetes jargon and documentation, improving response relevance through agentic retrieval instead of relying on a generic LLM's baked‑in knowledge.</p>
+                <p>To answer Kubernetes questions from the official documentation, with links to the pages used, instead of relying on a general model's memory.</p>
             </div>
             <div class="modal-section">
                 <h4>Approach</h4>
                 <ul>
-                    <li>Implemented an agentic RAG pipeline with LangChain to answer Kubernetes documentation and CLI‑related queries.</li>
-                    <li>Indexed 50+ documentation pages and built FAISS‑based vector retrieval over them.</li>
-                    <li>Optimized retrieval and re‑ranking to improve answer relevance over naive semantic search.</li>
-                    <li>Validated the system across 10+ queries for accuracy against the source documentation.</li>
+                    <li>Read the open-source Kubernetes docs: 1,122 pages (14,469 passages), including the example manifests.</li>
+                    <li>Hybrid search: BM25 keyword search and local embeddings combined with reciprocal rank fusion, with an optional re-ranker.</li>
+                    <li>Gemini writes the answer from the retrieved passages and cites the pages; a relevance floor refuses off-topic questions.</li>
+                    <li>Streamlit app. Also includes LoRA fine-tuning scripts for phi-2 on question-answer pairs built from the docs (written and tested on small inputs, not run on a GPU, so no improvement is claimed).</li>
                 </ul>
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
                 <ul>
-                    <li>Delivered an agentic RAG system that answers Kubernetes documentation queries accurately, validated across 10+ test queries.</li>
-                    <li>Retrieval and re‑ranking optimizations measurably improved answer relevance over naive semantic search.</li>
+                    <li>Measured retrieval on 78 test questions: the right page was in the top 5 for 92.3% of them (95% interval 85.9 to 97.4), against 0 of 78 for the original app's scraped pages.</li>
+                    <li>Answer correctness was not measured, the test questions were written by me, and the differences between hybrid search, embeddings alone and re-ranking are within noise at this sample size.</li>
                 </ul>
             </div>
             <div class="modal-footer">
-                <a href="https://github.com/ghodkeadityarao/Kubernetes-Specific-Chatbot" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">View on GitHub</a>
+                <a href="https://github.com/ghodkeadityarao/Kubernetes-Specific-Chatbot" target="_blank" rel="noopener noreferrer" class="modal-btn-primary" style="margin-right: 0.75rem;">View on GitHub</a>
+                <a href="https://kubernetes-chatbot.streamlit.app/" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">Live App</a>
             </div>
         </div>
     </div>
 
-    <div id="modal-loggpt" class="modal">
+    <div id="modal-loggpt" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-loggpt">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('loggpt')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('loggpt')">&times;</button>
             <div class="modal-header">
-                <h3>LogGPT: IT Log Analyzer</h3>
+                <h3 id="modal-title-loggpt">LogGPT: IT Log Analyzer</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -1892,30 +1937,31 @@
         </div>
     </div>
 
-    <div id="modal-personal3" class="modal">
+    <div id="modal-personal3" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-personal3">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('personal3')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('personal3')">&times;</button>
             <div class="modal-header">
-                <h3>Conversational AI Chatbot</h3>
+                <h3 id="modal-title-personal3">Conversational AI Chatbot</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
-                <p>To create an interactive web chatbot that delivers relevant, context‑aware conversational responses by leveraging Google’s Gemini‑Pro generative model and minimal backend logic.</p>
+                <p>To create an interactive web chatbot that answers quickly and reliably, using the language model only where it is needed.</p>
             </div>
             <div class="modal-section">
                 <h4>Approach</h4>
                 <ul>
-                    <li>Built a lightweight Flask application serving a web chat interface.</li>
-                    <li>Integrated Google Generative AI (Gemini‑Pro) for natural conversation generation.</li>
-                    <li>Implemented user context handling to personalize conversations (e.g., storing a user’s name).</li>
-                    <li>Added intent‑based responses for simple queries (time, greetings) before falling back to Gemini for open‑ended replies.</li>
+                    <li>Flask app with a streaming chat page: the reply appears word by word, with safe Markdown, a typing indicator and a "Continue" button when an answer is cut off.</li>
+                    <li>Google Gemini through the current SDK, with a fallback to other model names if one is unavailable, and plain-language errors.</li>
+                    <li>Quick answers without the model: time and date in the visitor's own time zone, an honest "no live weather data" reply, and remembering a name from "My name is ...". Questions that merely mention these words go to the model.</li>
+                    <li>A private session per visitor, a per-address rate limit and a daily budget to protect the API key.</li>
                 </ul>
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
                 <ul>
-                    <li>Delivered a fully working web chatbot capable of engaging with users in natural language.</li>
-                    <li>Achieved context‑aware interactions that can recall user names and handle simple intents effectively.</li>
+                    <li>On 105 hand-written messages the new rules handled 104 correctly, against 46 for the original rules; "What time did the Roman Empire fall?" used to return the server clock.</li>
+                    <li>These numbers are in-sample: the messages were written alongside the rules, so 99% is an upper bound, not a rate for real traffic.</li>
+                    <li>108 tests cover the quick answers, sessions and limits, the Gemini wrapper (with a fake client) and the app.</li>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -1924,97 +1970,97 @@
         </div>
     </div>
 
-    <div id="modal-personal4" class="modal">
+    <div id="modal-personal4" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-personal4">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('personal4')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('personal4')">&times;</button>
             <div class="modal-header">
-                <h3>ResuMate: The Effortless Resume Analysis Tool</h3>
+                <h3 id="modal-title-personal4">ResuMate: The Effortless Resume Analysis Tool</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
-                <p>To build a technology‑driven solution that delivers tailored feedback and guidance to job seekers, helping them improve resumes and increase interview success chances.</p>
+                <p>To give job seekers specific, explainable feedback on their resume and how well it fits a target role.</p>
             </div>
             <div class="modal-section">
                 <h4>Approach</h4>
                 <ul>
-                    <li>Built a Flask‑based web application for interactive resume analysis.</li>
-                    <li>Designed data pipelines to parse resume content and extract relevant features (skills, job titles, experience).</li>
-                    <li>Implemented scoring mechanisms to evaluate resume quality and alignment with job requirements.</li>
-                    <li>Integrated job description inputs to compare candidate resumes against target roles.</li>
-                    <li>Provided visual outputs and recommendations for improvements (skills, formatting, relevance).</li>
+                    <li>Flask web app that reads PDF, Word and plain-text resumes in memory, with nothing stored.</li>
+                    <li>18 checks in four categories (impact, brevity, style, sections). Each returns its points, the lines it flagged and a fix tip, shown as highlights on the resume.</li>
+                    <li>Job-post match: TF-IDF weights pick the post's key skills and keywords and show which the resume covers and which it lacks.</li>
+                    <li>Role suggestions from 25 roles with a confidence and a "not sure" answer, using TF-IDF and logistic regression trained on the unique resumes of a public dataset.</li>
                 </ul>
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
                 <ul>
-                    <li>Enabled personalized resume feedback and scoring for improved job readiness.</li>
-                    <li>Assisted users in identifying skill gaps and areas to enhance for better role alignment.</li>
+                    <li>On unseen resumes (3-fold cross-validation, repeated 5 times) the role model reached 83.6% accuracy, and the right role was in its top three 95.1% of the time.</li>
+                    <li>The score is built from common resume rules of thumb and has not been validated against hiring decisions. The role model learned from only 166 unique, mostly technical resumes.</li>
                 </ul>
             </div>
             <div class="modal-footer">
-                <a href="https://github.com/ghodkeadityarao/ResuMate-The-Effortless-Resume-Analysis-Tool" target="_blank" class="modal-btn-primary">View on GitHub</a>
+                <a href="https://github.com/ghodkeadityarao/ResuMate-The-Effortless-Resume-Analysis-Tool" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">View on GitHub</a>
             </div>
         </div>
     </div>
 
-    <div id="modal-personal5" class="modal">
+    <div id="modal-personal5" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-personal5">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('personal5')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('personal5')">&times;</button>
             <div class="modal-header">
-                <h3>Chat With Documents</h3>
+                <h3 id="modal-title-personal5">Chat With Documents</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
-                <p>To build a versatile conversational interface that lets users upload multiple document types and interact with their content through context‑aware AI responses.</p>
+                <p>To build a conversational interface that lets users upload many kinds of documents and get answers written only from them, with sources.</p>
             </div>
             <div class="modal-section">
                 <h4>Approach</h4>
                 <ul>
-                    <li>Developed an interactive chat system using Python that accepts user document uploads.</li>
-                    <li>Supported multiple common formats such as PDF, DOCX, TXT, XLSX, and CSV.</li>
-                    <li>Integrated LangChain for Retrieval‑Augmented Generation (RAG) to provide context‑aware AI answers based on document content.</li>
-                    <li>Used OpenAI API keys to power the language model responses during document queries.</li>
-                    <li>Built a Streamlit UI for file upload and chat interaction with the processed documents.</li>
+                    <li>Reads PDF (including scanned pages through local text recognition), Word, PowerPoint, Excel and CSV, HTML, images, text and ZIP archives, recognising formats by content as well as by name.</li>
+                    <li>Splits files into passages of about 1,000 characters, then searches two ways at once: local embeddings and BM25 keywords, merged, with a cross-encoder re-scoring the best 30.</li>
+                    <li>Passes the top passages to a language model (OpenAI, Groq, Gemini, OpenRouter or a local Ollama server) with instructions to cite them and to say when the answer is not there. Without a key it still shows the best-matching passages.</li>
+                    <li>Streamlit app that lists the passages behind each answer, with the cited ones marked.</li>
                 </ul>
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
                 <ul>
-                    <li>Delivered a working document chat interface where users can upload and query multiple files in real time.</li>
-                    <li>Demonstrated how RAG + LLM can be used to extract meaningful insights from diverse document collections.</li>
+                    <li>On 2,000 test questions over Wikipedia articles (SQuAD), the right passage came first 90.5% of the time, against 73.6% for the original version, and was in the top 4 for 97.8%, with 95% bootstrap intervals reported.</li>
+                    <li>SQuAD is Wikipedia text, not users' own files, so results on other documents may differ.</li>
                 </ul>
             </div>
             <div class="modal-footer">
-                <a href="https://github.com/ghodkeadityarao/Chat-With-Documents" target="_blank" class="modal-btn-primary">View on GitHub</a>
+                <a href="https://github.com/ghodkeadityarao/Chat-With-Documents" target="_blank" rel="noopener noreferrer" class="modal-btn-primary" style="margin-right: 0.75rem;">View on GitHub</a>
+                <a href="https://ask-any-document.streamlit.app/" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">Live App</a>
             </div>
         </div>
     </div>
 
-    <div id="modal-zenvest" class="modal">
+    <div id="modal-zenvest" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-zenvest">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('zenvest')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('zenvest')">&times;</button>
             <div class="modal-header">
-                <h3>Zenvest AI: LLM-Powered ETF Recommender</h3>
+                <h3 id="modal-title-zenvest">Zenvest AI: LLM-Powered ETF Recommender</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
-                <p>To recommend ETFs from plain‑language investment goals (rather than filters and tickers) while keeping every recommendation explainable instead of a black‑box ranking.</p>
+                <p>To recommend ETFs from plain-language investment goals (rather than filters and tickers) while keeping every recommendation explainable instead of a black-box ranking.</p>
             </div>
             <div class="modal-section">
                 <h4>Approach</h4>
                 <ul>
-                    <li>Used Llama 3.1 8B via the Groq API to parse plain‑language goals into structured preferences such as risk tolerance and investment horizon.</li>
-                    <li>Built a hybrid recommender combining content‑based filtering with collaborative filtering (SVD) and XGBoost ranking over a dataset of 2,264 ETFs, each with 129 features (returns, volatility, expense ratios, sector/geographic exposure).</li>
-                    <li>Applied SHAP feature attribution so every recommendation comes with a plain‑terms explanation of why that ETF was suggested.</li>
-                    <li>Built a Streamlit front end backed by a Flask service and deployed it publicly.</li>
+                    <li>A language model (Groq or Gemini) turns the goal into a structured profile: risk level, horizon, fee limit, sectors, regions, fund size and currency. Its output is validated, so an unknown or out-of-range value falls back to a safe default.</li>
+                    <li>Funds that meet every limit the user stated rank first. Within that group an XGBoost ranker, trained on 80 varied profiles over 2,264 ETFs with 129 features, orders them.</li>
+                    <li>SHAP shows the main factors behind each fund's position, and a chat panel answers finance questions with the recommended funds as context.</li>
+                    <li>Flask web app with a per-address rate limit, a daily budget, a "not financial advice" notice and the data date shown on the page.</li>
+                    <li>Tested a collaborative-filtering prior built on simulated investors: every positive weight lowered personalisation and nothing improved, so it is switched off.</li>
                 </ul>
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
                 <ul>
-                    <li>Achieved a mean NDCG@10 of 0.91 with the hybrid XGBoost ranker, an 11‑point gain over collaborative‑filtering‑only ranking (0.80).</li>
-                    <li>Shipped a live, deployed recommender that turns a plain‑language goal into a ranked, explained ETF shortlist end to end.</li>
-                    <li>Combined LLM‑based intent parsing, hybrid ML ranking, and explainable AI into a single working pipeline.</li>
+                    <li>On 150 held-out test profiles, 100% of the top five funds met the user's stated limits, against 75% for the original design, and the risk level ordered the results correctly in 21 of 24 test groups, against 0 before.</li>
+                    <li>The language model read all 42 labelled test goals correctly (a small, plain set written by me).</li>
+                    <li>The fund data is a March 2023 snapshot, so the page says so. Funds with missing numbers rank last, so every figure shown comes from the data.</li>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -2024,11 +2070,45 @@
         </div>
     </div>
 
-    <div id="modal-blackjack" class="modal">
+    <div id="modal-dataagent" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-dataagent">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('blackjack')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('dataagent')">&times;</button>
             <div class="modal-header">
-                <h3>Blackjack Win Probability Calculator</h3>
+                <h3 id="modal-title-dataagent">Data Question Agent: Text-to-SQL with Guardrails</h3>
+            </div>
+            <div class="modal-section">
+                <h4>Objective</h4>
+                <p>To let people ask a database questions in plain language while making sure a model-written query cannot change or leak data.</p>
+            </div>
+            <div class="modal-section">
+                <h4>Approach</h4>
+                <ul>
+                    <li>FastAPI service with a bounded loop: the model writes a query, sees the rows or the error, and may fix it, in at most 4 steps. An answer is only accepted after a query has run.</li>
+                    <li>Three layers around the SQL: a static check (one SELECT only), a read-only connection with an authorizer that hides a private email column and blocks file and extension functions, and limits of 50 rows and 2 seconds.</li>
+                    <li>Input checks refuse prompt-injection phrasing before the model is called, and answers containing keys or email addresses are withheld.</li>
+                    <li>Chat page that shows the answer, the SQL and the rows, plus a rate limit, a daily budget and a Docker image deployed on Render.</li>
+                </ul>
+            </div>
+            <div class="modal-section">
+                <h4>Results</h4>
+                <ul>
+                    <li>Gemini returned the correct rows for 38 of 40 test questions in one run (95%). The two misses were ambiguous: it left cancelled orders out of "sold".</li>
+                    <li>All 25 dangerous queries (drops, deletes, hidden writes, private-column reads, endless queries) were stopped, while a plain database connection ran 19 of the 23 that could be tried.</li>
+                    <li>Honest limits: the questions were written by me, paraphrased injections slip past the input check (0 of 3), and only the SQL layers stop them.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/ghodkeadityarao/data-question-agent" target="_blank" rel="noopener noreferrer" class="modal-btn-primary" style="margin-right: 0.75rem;">View on GitHub</a>
+                <a href="https://data-question-agent.onrender.com/" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-blackjack" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-blackjack">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close" onclick="closeModal('blackjack')">&times;</button>
+            <div class="modal-header">
+                <h3 id="modal-title-blackjack">Blackjack Win Probability Calculator</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -2055,11 +2135,11 @@
         </div>
     </div>
 
-    <div id="modal-stocks" class="modal">
+    <div id="modal-stocks" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title-stocks">
         <div class="modal-content">
-            <button class="close-modal" onclick="closeModal('stocks')">&times;</button>
+            <button class="close-modal" aria-label="Close" onclick="closeModal('stocks')">&times;</button>
             <div class="modal-header">
-                <h3>Stock Price Forecasting with Time Series Models</h3>
+                <h3 id="modal-title-stocks">Stock Price Forecasting with Time Series Models</h3>
             </div>
             <div class="modal-section">
                 <h4>Objective</h4>
@@ -2198,12 +2278,12 @@
         <div class="container">
             <p>&copy; 2026 Aditya Rao Ghodke. All rights reserved.
                 <span class="footer-social" aria-hidden="false">
-                    <a href="https://github.com/ghodkeaditya0909" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/ghodkeadityarao" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.111.793-.261.793-.577v-2.234C6.61 20.776 5.917 19.64 5.917 19.64c-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.562 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="https://linkedin.com/in/ghodkeaditya0909" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/ghodkeadityarao" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                         </svg>
@@ -2214,6 +2294,17 @@
     </footer>
 
     <style>
+        /* Skip link, keyboard focus and reduced motion */
+        .skip-link { position: absolute; left: 1rem; top: -4rem; background: var(--primary); color: #fff; padding: 0.6rem 1rem; border-radius: 8px; z-index: 1000; text-decoration: none; font-weight: 600; }
+        .skip-link:focus { top: 1rem; }
+        a:focus-visible, button:focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+            .awards-ticker-wrapper { overflow-x: auto; }
+            .awards-ticker { width: max-content; }
+            section { opacity: 1 !important; transform: none !important; }
+        }
+
         /* Footer social icons */
         .footer-social {
             display: inline-flex;
@@ -2244,35 +2335,38 @@
 
     <script>
         // Project Tab Switching
-        function showProjects(category) {
+        function showProjects(category, button) {
             document.querySelectorAll('.project-category').forEach(cat => {
                 cat.classList.remove('active');
             });
             
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.remove('active');
+                btn.setAttribute('aria-selected', 'false');
             });
             
-            if (category === 'research') {
-                document.getElementById('research-projects').classList.add('active');
-                event.target.classList.add('active');
-            } else {
-                document.getElementById('personal-projects').classList.add('active');
-                event.target.classList.add('active');
-            }
+            document.getElementById(category + '-projects').classList.add('active');
+            button.classList.add('active');
+            button.setAttribute('aria-selected', 'true');
         }
 
         // Modal Functions
+        let lastFocus = null;
+
         function showModal(projectId) {
             const modal = document.getElementById('modal-' + projectId);
+            lastFocus = document.activeElement;
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+            const close = modal.querySelector('.close-modal');
+            if (close) close.focus();
         }
 
         function closeModal(projectId) {
             const modal = document.getElementById('modal-' + projectId);
             modal.classList.remove('active');
             document.body.style.overflow = 'auto';
+            if (lastFocus) lastFocus.focus();
         }
 
         // Close modal when clicking outside
@@ -2290,6 +2384,7 @@
                     modal.classList.remove('active');
                 });
                 document.body.style.overflow = 'auto';
+                if (lastFocus) lastFocus.focus();
             }
         });
 
@@ -2335,13 +2430,18 @@
         }
 
         // Start typewriter effect after page load
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         window.addEventListener('load', () => {
-            setTimeout(typeWriter, 500);
+            if (reduceMotion) {
+                document.getElementById('typed-tagline').textContent = texts[0];
+            } else {
+                setTimeout(typeWriter, 500);
+            }
         });
 
         // Smooth reveal on scroll
         const observerOptions = {
-            threshold: 0.1,
+            threshold: 0,
             rootMargin: '0px 0px -100px 0px'
         };
 
@@ -2356,6 +2456,7 @@
 
         // Observe all sections for smooth reveal
         window.addEventListener('load', () => {
+            if (reduceMotion) return;
             document.querySelectorAll('section').forEach(section => {
                 section.style.opacity = '0';
                 section.style.transform = 'translateY(30px)';

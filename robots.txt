@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ghodkeadityarao.github.io/aditya-rao-ghodke/sitemap.xml
