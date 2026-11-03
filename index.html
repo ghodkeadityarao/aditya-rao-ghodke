@@ -1562,10 +1562,10 @@
                             <h3>Sleep Stage Classification of EEG Signals</h3>
                         </div>
                         <div class="project-body">
-                            <p>ML/DL-based classification of EEG signals into 5 sleep stages using 30 s segments from 23.6 hours of recordings.</p>
+                            <p>ML/DL-based classification of EEG signals into 5 sleep stages plus movement and unscored epochs (7 labels) using 30 s segments from 23.6 hours of recordings.</p>
                             <div class="project-stats">
-                                <span class="stat">93.1% Accuracy</span>
-                                <span class="stat">6 Sleep Stages</span>
+                                <span class="stat">93.6% Accuracy</span>
+                                <span class="stat">7 Labels</span>
                             </div>
                             <button class="view-details-btn" onclick="showModal('sleep')">View Details</button>
                         </div>
@@ -1772,7 +1772,7 @@
             </div>
             <div class="modal-section">
                 <h4>Results</h4>
-                <p>MLP model achieved highest performance with 93.1% accuracy in classifying 5 sleep stages.</p>
+                <p>MLP model achieved highest performance with 93.6% accuracy on a random 80/20 split, over 5 sleep stages plus movement and unscored epochs (7 labels).</p>
             </div>
             <div class="modal-footer">
                 <a href="https://github.com/ghodkeadityarao/Sleep-Stage-Classification-of-EEG-Signals" target="_blank" rel="noopener noreferrer" class="modal-btn-primary">View on GitHub</a>
